@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#1a0a1e">
+    <title>💕 Dioselynne & Paco 💕 San Valentín</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-heart">
+            <svg viewBox="0 0 100 100" class="heart-svg-loader">
+                <path d="M50 88 C25 65, 0 50, 0 30 C0 12, 12 0, 28 0 C38 0, 46 6, 50 14 C54 6, 62 0, 72 0 C88 0, 100 12, 100 30 C100 50, 75 65, 50 88Z" fill="url(#heartGradientLoader)"/>
+                <defs>
+                    <linearGradient id="heartGradientLoader" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#ff3366"/>
+                        <stop offset="100%" style="stop-color:#ff6b9d"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <p class="preloader-text">Cargando amor...</p>
+    </div>
+
+    <!-- Floating Hearts Background -->
+    <div id="floating-hearts" aria-hidden="true"></div>
+
+    <!-- Sparkle Particles -->
+    <div id="sparkle-container" aria-hidden="true"></div>
+
+    <!-- ====== HERO SECTION ====== -->
+    <section id="hero" class="section">
+        <div class="hero-bg-overlay"></div>
+        <div class="rose-petals" aria-hidden="true"></div>
+        
+        <div class="hero-content">
+            <div class="hearts-burst" aria-hidden="true">
+                <span class="burst-heart">❤️</span>
+                <span class="burst-heart">💕</span>
+                <span class="burst-heart">💖</span>
+                <span class="burst-heart">💗</span>
+                <span class="burst-heart">💘</span>
+                <span class="burst-heart">💝</span>
+            </div>
+            
+            <h1 class="hero-title fade-in-up">
+                <span class="name name-left glow-text">Dioselynne</span>
+                <span class="ampersand">
+                    <svg viewBox="0 0 100 100" class="heart-svg-hero" aria-label="y">
+                        <path d="M50 88 C25 65, 0 50, 0 30 C0 12, 12 0, 28 0 C38 0, 46 6, 50 14 C54 6, 62 0, 72 0 C88 0, 100 12, 100 30 C100 50, 75 65, 50 88Z" fill="url(#heartGradient1)"/>
+                        <defs>
+                            <linearGradient id="heartGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#ff3366"/>
+                                <stop offset="50%" style="stop-color:#ff6b9d"/>
+                                <stop offset="100%" style="stop-color:#e91e63"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+                <span class="name name-right glow-text">Paco</span>
+            </h1>
+        </div>
+    </section>
+
+    <!-- ====== LOVE LETTER SECTION ====== -->
+    <section id="love-letter" class="section">
+        <div class="floating-roses" aria-hidden="true"></div>
+        
+        <div class="container">
+            <div class="letter-envelope reveal-scale">
+                <div class="envelope-flap"></div>
+                <div class="letter-paper">
+                    <div class="letter-header">
+                        <svg viewBox="0 0 200 40" class="letter-ornament">
+                            <path d="M0 20 Q50 0 100 20 Q150 40 200 20" stroke="url(#ornamentGrad)" stroke-width="2" fill="none"/>
+                            <defs>
+                                <linearGradient id="ornamentGrad">
+                                    <stop offset="0%" stop-color="#ff6b9d"/>
+                                    <stop offset="50%" stop-color="#c084fc"/>
+                                    <stop offset="100%" stop-color="#22d3ee"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    
+                    <h2 class="letter-title">Para Mi Amor</h2>
+                    
+                    <div class="letter-body typewriter">
+                        <p>Mi querida Dioselynne,</p>
+                        <p>Cada día a tu lado es un regalo que el universo me da. Tu sonrisa es la luz que guía mis días, tu risa es la melodía que alegra mi alma.</p>
+                        <p>Eres la persona más increíble que he conocido. Tu bondad, tu fuerza, tu belleza... todo en ti me enamora cada día más.</p>
+                        <p>Quiero que sepas que eres lo mejor que me ha pasado en la vida. Te amo con todo mi corazón.</p>
+                        <p class="letter-signature">Con todo mi amor,<br><span class="signature">Paco</span></p>
+                    </div>
+                    
+                    <div class="letter-footer">
+                        <svg viewBox="0 0 200 40" class="letter-ornament">
+                            <path d="M0 20 Q50 40 100 20 Q150 0 200 20" stroke="url(#ornamentGrad2)" stroke-width="2" fill="none"/>
+                            <defs>
+                                <linearGradient id="ornamentGrad2">
+                                    <stop offset="0%" stop-color="#22d3ee"/>
+                                    <stop offset="50%" stop-color="#c084fc"/>
+                                    <stop offset="100%" stop-color="#ff6b9d"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== REASONS SECTION ====== -->
+    <section id="reasons" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="title-decoration">♥</span>
+                Razones por las que Te Quiero
+                <span class="title-decoration">♥</span>
+            </h2>
+            
+            <div class="reasons-grid">
+                <div class="reason-card glass-card reveal-scale" style="--delay: 0s">
+                    <h3>Tu Sonrisa</h3>
+                    <p>Iluminas cada rincón con esa sonrisa que derrite corazones.</p>
+                </div>
+                <div class="reason-card glass-card reveal-scale" style="--delay: 0.1s">
+                    <h3>Tu Bondad</h3>
+                    <p>Tu corazón es el más generoso y hermoso del mundo.</p>
+                </div>
+                <div class="reason-card glass-card reveal-scale" style="--delay: 0.2s">
+                    <h3>Tu Fuerza</h3>
+                    <p>Admiro tu valentía y la forma en que enfrentas la vida.</p>
+                </div>
+                <div class="reason-card glass-card reveal-scale" style="--delay: 0.5s">
+                    <h3>Eres Única</h3>
+                    <p>No existe nadie como tú en todo el universo. Eres mi diamante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== PROMISE SECTION ====== -->
+    <section id="promise" class="section">
+        <div class="container">
+            <div class="promise-card glass-card reveal-scale">
+                <div class="promise-glow"></div>
+                <h2 class="promise-title">Mi Promesa de Amor</h2>
+                <div class="promise-content">
+                    <div class="promise-item">
+                        <span class="promise-heart">💗</span>
+                        <p>Prometo amarte cada día más que el anterior</p>
+                    </div>
+                    <div class="promise-item">
+                        <span class="promise-heart">💗</span>
+                        <p>Prometo ser tu refugio en los días de tormenta</p>
+                    </div>
+                    <div class="promise-item">
+                        <span class="promise-heart">💗</span>
+                        <p>Prometo hacerte reír hasta que te duela el estómago</p>
+                    </div>
+                    <div class="promise-item">
+                        <span class="promise-heart">💗</span>
+                        <p>Prometo sostener tu mano en cada paso del camino</p>
+                    </div>
+                    <div class="promise-item">
+                        <span class="promise-heart">💗</span>
+                        <p>Prometo que siempre seré tu compañero de aventuras</p>
+                    </div>
+                </div>
+                <div class="promise-seal">
+                    <svg viewBox="0 0 80 80" class="seal-svg">
+                        <circle cx="40" cy="40" r="35" fill="none" stroke="url(#sealGrad)" stroke-width="2"/>
+                        <circle cx="40" cy="40" r="28" fill="none" stroke="url(#sealGrad)" stroke-width="1" opacity="0.5"/>
+                        <text x="40" y="36" text-anchor="middle" fill="#ff6b9d" font-size="8" font-family="Montserrat" font-weight="600">SELLADO</text>
+                        <text x="40" y="48" text-anchor="middle" fill="#c084fc" font-size="7" font-family="Montserrat">CON AMOR</text>
+                        <path d="M40 55 C33 50, 25 46, 25 38 C25 32, 29 28, 34 28 C37 28, 39 30, 40 32 C41 30, 43 28, 46 28 C51 28, 55 32, 55 38 C55 46, 47 50, 40 55Z" fill="#ff6b9d" opacity="0.8"/>
+                        <defs>
+                            <linearGradient id="sealGrad">
+                                <stop offset="0%" stop-color="#ff6b9d"/>
+                                <stop offset="100%" stop-color="#c084fc"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== COUNTDOWN / FINAL SECTION ====== -->
+    <section id="final" class="section">
+        <div class="final-bg-animation" aria-hidden="true"></div>
+        
+        <div class="container">
+            <div class="final-content">
+                <div class="infinity-heart reveal-scale">
+                    <svg viewBox="0 0 300 200" class="infinity-svg">
+                        <defs>
+                            <linearGradient id="infGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#ff3366">
+                                    <animate attributeName="stop-color" values="#ff3366;#c084fc;#22d3ee;#10b981;#ff3366" dur="6s" repeatCount="indefinite"/>
+                                </stop>
+                                <stop offset="50%" stop-color="#c084fc">
+                                    <animate attributeName="stop-color" values="#c084fc;#22d3ee;#10b981;#ff3366;#c084fc" dur="6s" repeatCount="indefinite"/>
+                                </stop>
+                                <stop offset="100%" stop-color="#22d3ee">
+                                    <animate attributeName="stop-color" values="#22d3ee;#10b981;#ff3366;#c084fc;#22d3ee" dur="6s" repeatCount="indefinite"/>
+                                </stop>
+                            </linearGradient>
+                            <filter id="glow">
+                                <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur"/>
+                                    <feMergeNode in="SourceGraphic"/>
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        <path d="M150 120 C120 90, 60 60, 40 90 C20 120, 50 160, 150 120 C250 160, 280 120, 260 90 C240 60, 180 90, 150 120Z" 
+                              fill="none" stroke="url(#infGrad)" stroke-width="4" filter="url(#glow)"
+                              stroke-dasharray="600" stroke-dashoffset="600">
+                            <animate attributeName="stroke-dashoffset" from="600" to="0" dur="3s" fill="freeze" begin="0s"/>
+                        </path>
+                    </svg>
+                </div>
+                
+                <h2 class="final-title reveal">
+                    <span class="char-animate">D</span>
+                    <span class="char-animate">i</span>
+                    <span class="char-animate">o</span>
+                    <span class="char-animate">s</span>
+                    <span class="char-animate">e</span>
+                    <span class="char-animate">l</span>
+                    <span class="char-animate">y</span>
+                    <span class="char-animate">n</span>
+                    <span class="char-animate">n</span>
+                    <span class="char-animate">e</span>
+                    <span class="char-animate">&nbsp;</span>
+                    <span class="char-animate heart-char">♥</span>
+                    <span class="char-animate">&nbsp;</span>
+                    <span class="char-animate">P</span>
+                    <span class="char-animate">a</span>
+                    <span class="char-animate">c</span>
+                    <span class="char-animate">o</span>
+                </h2>
+                
+                <p class="final-message reveal">
+                    Te amo hoy, mañana y por toda la eternidad 💕
+                </p>
+                
+                <div class="final-hearts-rain" aria-hidden="true"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== EASTER EGG 1: Secret Love Lock ====== -->
+    <div id="love-lock" class="love-lock" aria-hidden="true">
+        <div class="lock-body">
+            <svg viewBox="0 0 40 50" class="lock-svg">
+                <path class="lock-shackle" d="M10 20 L10 12 C10 5, 30 5, 30 12 L30 20" fill="none" stroke="#c084fc" stroke-width="3" stroke-linecap="round"/>
+                <rect x="5" y="20" width="30" height="22" rx="4" fill="url(#lockGrad)"/>
+                <circle cx="20" cy="30" r="4" fill="#1a0a1e"/>
+                <path d="M20 33 L20 37" stroke="#1a0a1e" stroke-width="2.5" stroke-linecap="round"/>
+                <defs>
+                    <linearGradient id="lockGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#f59e0b"/>
+                        <stop offset="100%" stop-color="#d97706"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+            <div class="lock-clicks-hint">
+                <span class="lock-dot"></span>
+                <span class="lock-dot"></span>
+                <span class="lock-dot"></span>
+                <span class="lock-dot"></span>
+                <span class="lock-dot"></span>
+                <span class="lock-dot"></span>
+                <span class="lock-dot"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====== EASTER EGG 2: Photo Collage Overlay ====== -->
+    <div id="love-overlay" class="egg-overlay" aria-hidden="true">
+        <div class="egg-overlay-bg"></div>
+        <div class="egg-overlay-content collage-scroll-content">
+            <!-- Fireworks Canvas -->
+            <canvas id="fireworks-canvas" class="fireworks-canvas"></canvas>
+            
+            <div class="love-collage">
+                <h2 class="love-secret-title">📸 Mis Fotos Favoritas de Ti</h2>
+                <p class="love-secret-msg">Dioselynne & Paco — Cada momento contigo es perfecto ✨</p>
+                
+                <div class="photo-collage-mosaic">
+                    <!-- Row 1: Hero photo (wide) -->
+                    <div class="mosaic-item mosaic-hero mosaic-anim" data-photo="assets/favoritas1.jpg">
+                        <div class="polaroid">
+                            <img src="assets/favoritas1.jpg" alt="Nosotros" loading="lazy">
+                            <div class="polaroid-caption">Hermosa 💕</div>
+                            <div class="polaroid-tape tape-left"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Row 2: Two side-by-side -->
+                    <div class="mosaic-item mosaic-half mosaic-anim" data-photo="assets/favoritas2.jpg">
+                        <div class="polaroid polaroid-tilt-left">
+                            <img src="assets/favoritas2.jpg" alt="Nosotros" loading="lazy">
+                            <div class="polaroid-caption">Tu sonrisa 💖</div>
+                            <div class="polaroid-tape tape-right"></div>
+                        </div>
+                    </div>
+                    <div class="mosaic-item mosaic-half mosaic-anim" data-photo="assets/favoritas3.jpg">
+                        <div class="polaroid polaroid-tilt-right">
+                            <img src="assets/favoritas3.jpg" alt="Nosotros" loading="lazy">
+                            <div class="polaroid-caption">Preciosa ✨</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Row 3: One tall + one square -->
+                    <div class="mosaic-item mosaic-tall mosaic-anim" data-photo="assets/favoritas4.jpg">
+                        <div class="polaroid polaroid-tilt-right">
+                            <img src="assets/favoritas4.jpg" alt="Nosotros" loading="lazy">
+                            <div class="polaroid-caption">Mi amor 🩷</div>
+                            <div class="polaroid-tape tape-center"></div>
+                        </div>
+                    </div>
+                    <div class="mosaic-item mosaic-square mosaic-anim" data-photo="assets/favoritas6.JPG">
+                        <div class="polaroid polaroid-tilt-left">
+                            <img src="assets/favoritas6.JPG" alt="Nosotros" loading="lazy">
+                            <div class="polaroid-caption">Eres todo 💗</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Row 4: Full-width -->
+                    <div class="mosaic-item mosaic-hero mosaic-anim" data-photo="assets/favoritas7.JPG">
+                        <div class="polaroid">
+                            <img src="assets/favoritas7.JPG" alt="Nosotros" loading="lazy">
+                            <div class="polaroid-caption">Mi favorita ❤️</div>
+                            <div class="polaroid-tape tape-left"></div>
+                            <div class="polaroid-tape tape-right"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Floating center heart -->
+                <div class="mosaic-floating-heart">
+                    <svg viewBox="0 0 100 100" class="collage-heart-svg">
+                        <defs>
+                            <linearGradient id="megaHG" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#ff3366">
+                                    <animate attributeName="stop-color" values="#ff3366;#c084fc;#22d3ee;#ff3366" dur="4s" repeatCount="indefinite"/>
+                                </stop>
+                                <stop offset="100%" stop-color="#c084fc">
+                                    <animate attributeName="stop-color" values="#c084fc;#22d3ee;#ff3366;#c084fc" dur="4s" repeatCount="indefinite"/>
+                                </stop>
+                            </linearGradient>
+                        </defs>
+                        <path d="M50 88 C25 65, 0 50, 0 30 C0 12, 12 0, 28 0 C38 0, 46 6, 50 14 C54 6, 62 0, 72 0 C88 0, 100 12, 100 30 C100 50, 75 65, 50 88Z" fill="url(#megaHG)" opacity="0.9"/>
+                    </svg>
+                    <span class="collage-heart-text">D & P</span>
+                </div>
+
+                <p class="love-secret-sub">Cada foto guarda un pedacito de nuestra historia. Toca una foto para verla más de cerca. 💕</p>
+                
+                <div class="love-mini-hearts">
+                    <span>💖</span><span>💗</span><span>💘</span><span>💝</span><span>💕</span>
+                    <span>❤️</span><span>🩷</span><span>💜</span><span>🩵</span><span>💚</span>
+                </div>
+            </div>
+            
+            <button class="egg-close-btn" id="close-love-overlay">✕</button>
+        </div>
+    </div>
+
+    <!-- Photo Fullscreen Viewer -->
+    <div id="photo-viewer" class="photo-viewer" aria-hidden="true">
+        <div class="photo-viewer-bg"></div>
+        <img id="photo-viewer-img" class="photo-viewer-img" src="" alt="Foto">
+        <button class="photo-viewer-close" id="close-photo-viewer">✕</button>
+        <div class="photo-viewer-hearts" id="viewer-hearts"></div>
+    </div>
+
+    <!-- ====== EASTER EGG 3: Lock Secret Scroll ====== -->
+    <div id="lock-overlay" class="egg-overlay" aria-hidden="true">
+        <div class="egg-overlay-bg"></div>
+        <div class="egg-overlay-content">
+            <div class="scroll-parchment">
+                <div class="parchment-glow"></div>
+                <div class="parchment-content">
+                    <div class="parchment-seal">
+                        <svg viewBox="0 0 60 60" class="parchment-seal-svg">
+                            <circle cx="30" cy="30" r="28" fill="none" stroke="#f59e0b" stroke-width="2"/>
+                            <circle cx="30" cy="30" r="22" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.5"/>
+                            <path d="M30 40 C23 36, 16 32, 16 26 C16 21, 20 18, 24 18 C27 18, 29 19, 30 22 C31 19, 33 18, 36 18 C40 18, 44 21, 44 26 C44 32, 37 36, 30 40Z" fill="#f59e0b"/>
+                        </svg>
+                    </div>
+                    <h2 class="parchment-title">Mensaje Secreto</h2>
+                    <div class="parchment-divider"></div>
+                    <p class="parchment-text">Mi Dioselynne hermosa,</p>
+                    <p class="parchment-text">Encontraste el candado secreto... igual que encontraste la llave de mi corazón.</p>
+                    <p class="parchment-text">Eres mi aventura favorita, mi mejor coincidencia, mi persona elegida. 🔐💛</p>
+                    <p class="parchment-signature">— Tu Paco, que te ama infinitamente</p>
+                </div>
+            </div>
+            <div class="golden-hearts-rain" id="golden-rain"></div>
+            <button class="egg-close-btn" id="close-lock-overlay">✕</button>
+        </div>
+    </div>
+
+    <!-- ====== EASTER EGG 3: Constellation Overlay ====== -->
+    <div id="constellation-overlay" class="egg-overlay" aria-hidden="true">
+        <div class="egg-overlay-bg constellation-bg"></div>
+        <div class="egg-overlay-content">
+            <canvas id="constellation-canvas" class="constellation-canvas"></canvas>
+            <div class="constellation-text">
+                <h2 class="constellation-title">Nuestra Constelación</h2>
+                <p class="constellation-msg">Mantuviste presionado el infinito... porque nuestro amor ES infinito 🌌</p>
+                <p class="constellation-sub">Las estrellas se alinearon para nosotros, Dioselynne & Paco</p>
+            </div>
+            <button class="egg-close-btn" id="close-constellation-overlay">✕</button>
+        </div>
+    </div>
+
+    <!-- Mobile hint for LOVE code -->
+    <div id="mobile-love-hint" class="mobile-love-hint" style="display:none;">
+        <p>Toca 4 veces rápido la pantalla <span class="hint-heart">💕</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
